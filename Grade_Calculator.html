@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <script>
+        let score = prompt("Enter your score (0-100):");
+
+        score = Number(score);
+
+        if (isNaN(score) || score < 0 || score > 100) {
+            alert("Invalid input! Please refresh the page and enter a number between 0 and 100.");
+        } else {
+            let grade;
+
+            if (score >= 70 && score <= 100) {
+                grade = "A";
+            } else if (score >= 50 && score <= 60) {
+                grade = "C";
+            } else if (score >= 0 && score <= 40) {
+                grade = "F";
+            } 
+            
+            else {
+                grade = "No grade available for this score range.";
+            }
+
+            alert(`Your grade is: ${grade}`);
+        }
+    </script>
+</body>
+</html>
