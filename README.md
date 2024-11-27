@@ -1,5 +1,5 @@
-# Basic_JavaScript Challeges Documentation
-# My eHA Academy learning challenges with solution.
+# Basic_JavaScript Challenges Documentation
+# My eHA Academy learning challenges with solutions.
 
 // Project Description
 
