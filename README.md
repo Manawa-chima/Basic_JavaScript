@@ -26,31 +26,31 @@ GitHub: For hosting the repository.
 
 // Topics Covered
 
-1. What is JavaScript?
+// What is JavaScript?
 JavaScript is a high-level, interpreted programming language used to add interactivity and logic to web pages.
 
-2. Why Learn JavaScript?
+// Why Learn JavaScript?
 1. JavaScript powers dynamic web applications.
 2. It’s one of the most in-demand skills for web developers.
 3. It supports both front-end and back-end development (Node.js).
 
-3. JavaScript Fundamentals
+// JavaScript Fundamentals
 1. Variables: var, let, const.
 2. Operators: Arithmetic, comparison, and logical operators.
 3. Functions: Declaring, invoking, and using parameters.
 
-4. JavaScript Frameworks
+// JavaScript Frameworks
 1. Introduction to popular frameworks like React.js, Angular, and Vue.js.
 2. How frameworks simplify complex tasks in JavaScript projects.
 
-5. Primitive Data Types
+// Primitive Data Types
 1. String, Number, Boolean, Null, Undefined, and Symbol.
 
-7. Reference Data Types
+// Reference Data Types
 1. Objects, arrays, and functions.
 2. Difference between primitive and reference types.
 
-8. Conditional Statements
+// Conditional Statements
 1. if...else: Conditional execution.
 2. switch: Handling multiple conditions.
 3. Logical operators for combining conditions
