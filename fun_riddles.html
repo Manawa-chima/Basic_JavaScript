@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Riddles Game</title>
+</head>
+<body>
+    <script>
+        // Array of riddles and answers
+        const riddles = [
+            { 
+                question: "What has to be broken before you can use it?", 
+                answer: "egg" 
+            },
+            { 
+                question: "I’m tall when I’m young, and I’m short when I’m old. What am I?", 
+                answer: "candle" 
+            },
+            { 
+                question: "What month of the year has 28 days?", 
+                answer: "all" 
+            }
+        ];
+
+        // Score
+        let score = 0;
+
+        // Loop
+        for (let i = 0; i < riddles.length; i++) {
+            // Ask the user the riddle
+            let userAnswer = prompt(riddles[i].question).toLowerCase();
+
+            //  if answer is correct
+            if (userAnswer === riddles[i].answer) {
+                alert("Correct! 🎉");
+                score++;
+            } else {
+                alert(`Wrong! The correct answer is: ${riddles[i].answer}`);
+            }
+        }
+
+        // Final score
+        alert(`Game Over! Your final score is: ${score}/${riddles.length}`);
+    </script>
+</body>
+</html>
